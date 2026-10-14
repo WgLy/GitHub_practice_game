@@ -2,6 +2,6 @@
 
 int unlock_remote(const Progress *progress)
 {
-    int room_enabled = 0;
+    int room_enabled = 1;
     return progress_tutorial_count(progress) == TUTORIAL_COUNT && room_enabled;
 }
